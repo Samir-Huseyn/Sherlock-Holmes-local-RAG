@@ -32,7 +32,7 @@ except:
 
 idx = 0
 for path in txt_files:
-    print(f"Oxunur: {path}")
+    print(f"Reading: {path}")
     with open(path, "r", encoding="utf-8", errors="ignore") as f:
         content = f.read()
         for i in range(0, len(content), 800):
