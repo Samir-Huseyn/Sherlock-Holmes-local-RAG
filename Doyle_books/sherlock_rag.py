@@ -14,7 +14,7 @@ while True:
     vec = embed_model.encode(question).tolist()
     results = qdrant.query_points(collection_name=COLLECTION, query=vec, limit=5).points
     context = "\n\n".join([r.payload['text'] for r in results])
-    prompt = f"Context:\n{context}\n\nQuestion: {question}\nAnswer (3-4 sentences, based on context only):"
+    prompt = f"Context:\n{context}\n\nQuestion: {question}\nAnswer (english, 3-4 sentences, based on context only):"
     resp = ollama.generate(model='llama3', prompt=prompt, options={'temperature': 0.2})
     print(f"\nAnswer: {resp['response']}\n")
 
