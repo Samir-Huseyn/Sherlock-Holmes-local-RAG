@@ -5,7 +5,6 @@ import os
 COLLECTION = "Sherlock"
 embed_model = SentenceTransformer('all-MiniLM-L6-v2')
 
-# Bütün txt faylları axtar (harada olur olsun)
 txt_files = []
 for root, dirs, files in os.walk("."):
     if "qdrant_db" in root:
