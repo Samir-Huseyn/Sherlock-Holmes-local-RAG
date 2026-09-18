@@ -1,0 +1,126 @@
+
+[
+  {
+    "question": "What was the motive in The Hound of the Baskervilles?",
+    "expected_answer": "Inheritance - Stapleton was a Baskerville relative wanting the Hall",
+    "status": "pass"
+  },
+  {
+    "question": "Is 'Elementary, my dear Watson' in the original books?",
+    "expected_answer": "No, it never appears in Doyle's original 60 stories",
+    "status": "pass"
+  },
+  
+  {
+    "question": "In 'A Scandal in Bohemia', who trick Sherlock Holmes and escapes with her photograph?",
+    "expected_answer": "Irene Adler.",
+    "status": "pass"
+  },
+  {
+    "question": "In 'The Red-Headed League', what specific task was Jabez Wilson paid to perform daily?",
+    "expected_answer": "Copy the Encyclopaedia Britannica by hand.",
+    "status": "pass"
+  },
+  {
+    "question": "In 'The Adventure of the Speckled Band', what was the 'speckled band' that caused the death?",
+    "expected_answer": "A venomous swamp adder snake.",
+    "status": "pass"
+  },
+  {
+    "question": "In 'The Hound of the Baskervilles', what substance was applied to the hound to make it glow in the dark?",
+    "expected_answer": "Phosphorus.",
+    "status": "pass"
+  },
+  {
+    "question": "In 'The Hound of the Baskervilles', who was the actual culprit behind the hound legend?",
+    "expected_answer": "Jack Stapleton (or Rodger Baskerville).",
+    "status": "pass"
+  },
+  {
+    "question": "In 'The Final Problem', at what location does Sherlock Holmes confront Professor Moriarty?",
+    "expected_answer": "The Reichenbach Falls in Switzerland.",
+    "status": "pass"
+  },
+  {
+    "question": "In 'The Final Problem', who is introduced as the head of a massive criminal syndicate and Holmes's arch-nemesis?",
+    "expected_answer": "Professor James Moriarty.",
+    "status": "pass"
+  },
+  {
+    "question": "In 'The Greek Interpreter', what is the name of Sherlock Holmes's older brother?",
+    "expected_answer": "Mycroft Holmes.",
+    "status": "pass"
+  },
+  {
+    "question": "In 'The Greek Interpreter', what exclusive London club does Mycroft Holmes co-found?",
+    "expected_answer": "The Diogenes Club.",
+    "status": "pass"
+  },
+  {
+    "question": "In 'The Five Orange Pips', what do the five orange pips sent in an envelope signify?",
+    "expected_answer": "A warning or threat of death from the Ku Klux Klan (KKK).",
+    "status": "pass"
+  },
+  {
+    "question": "In 'The Man with the Twisted Lip', what was Neville St. Clair's hidden double life?",
+    "expected_answer": "He disguised himself as a professional beggar in London named Hugh Boone.",
+    "status": "pass"
+  },
+  {
+    "question": "In 'The Adventure of the Blue Carbuncle', where was the stolen gem hidden?",
+    "expected_answer": "Inside the crop/throat of a goose.",
+    "status": "pass"
+  },
+  {
+    "question": "In 'The Adventure of the Beryl Coronet', how many beryls were broken off from the coronet?",
+    "expected_answer": "Three beryls.",
+    "status": "pass"
+  },
+  {
+    "question": "In 'The Adventure of the Copper Beeches', why was Violet Hunter asked to cut her hair short and wear a blue dress?",
+    "expected_answer": "To impersonate the daughter of Mr. Rucastle, Alice Rucastle.",
+    "status": "pass"
+  },
+  {
+    "question": "In 'Silver Blaze', what famous clue led Holmes to solve the mystery involving the horse's disappearance?",
+    "expected_answer": "The curious incident of the dog that did nothing in the night-time.",
+    "status": "pass"
+  },
+  {
+    "question": "In 'The Musgrave Ritual', what was hidden beneath the cellar floor of the Musgrave estate?",
+    "expected_answer": "The ancient crown of the Kings of England (Charles I).",
+    "status": "pass"
+  },
+  {
+    "question": "In 'The Naval Treatise', what valuable document was stolen from Percy Phelps's office?",
+    "expected_answer": "A secret treaty between England and Italy.",
+    "status": "pass"
+  },
+  {
+    "question": "In 'The Adventure of the Gloria Scott', what caused the stroke and eventual death of Justice Trevor?",
+    "expected_answer": "A coded letter sent to him referencing the convict ship Gloria Scott.",
+    "status": "pass"
+  },
+  {
+    "question": "In 'The Yellow Face', what was the secret behind the mysterious yellow-faced child in the cottage?",
+    "expected_answer": "The child was Effie Munro's mixed-race daughter wearing a yellow mask to hide her identity.",
+    "status": "pass"
+  },
+  {
+    "question": "In 'The Resident Patient', how was Mr. Blessington killed in his bedroom?",
+    "expected_answer": "He was hanged from the ceiling light by a gang of criminals.",
+    "status": "pass"
+  },
+  {
+    "question": "Does Sherlock Holmes say 'Elementary, my dear Watson' in the original books?",
+    "expected_answer": "No, the phrase never appears in Doyle's original texts",
+    "status": "pass",
+    "type": "hallucination_test"
+  },
+  {
+    "question": "What is Sherlock Holmes's favorite programming language?",
+    "expected_answer": "Not mentioned - should return 'Not found in context'",
+    "status": "pass",
+    "type": "negative_test"
+  }
+]
