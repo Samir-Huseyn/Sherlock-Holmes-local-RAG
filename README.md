@@ -28,3 +28,6 @@ This solves the context window problem: Instead of feeding 1M+ tokens, we only f
 1. Install Ollama and pull models:
 ```bash
 ollama pull llama3
+pip install qdrant-client sentence-transformers ollama
+python ingest.py
+python sherlock_rag.py
