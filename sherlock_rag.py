@@ -8,7 +8,7 @@ qdrant = QdrantClient(path="./qdrant_db")
 
 print("Sherlock RAG is ready! For exit, write 'exit'\n")
 while True:
-    question = input("Answer: ")
+    question = input("Question: ")
     if question.lower() in ["exit","quit"]:
         break
     vec = embed_model.encode(question).tolist()
